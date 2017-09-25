@@ -2,14 +2,24 @@
 <html lang="nl">
 <head>
 <title> Snake-Game </title>
-<link rel="stylesheet" type="text/css" href="css/SnakeStyle.css">
+<link rel="stylesheet" type="text/css" href="SnakeStyle.css">
 </head>
 <body>
+<a href="index.html">Home</a>
 <p id="Counter">Score: <span id="score">0</span></p>
+<button id="START" onclick="javascript: Start()">START</button>
 <main id="main">
 
 </main>
-<script src="js/Snake.js" type="text/javascript" ></script>
-<p id="top">Top Score: 45715</p>
+<script src="Snake.js" type="text/javascript" ></script>
+<div id="top">Leaderboard:
+<ol>
+	<li>Dennis: 16415</li>
+	<li>Raimo: 8715</li>
+</ul>
+</div>
+<audio autoplay loop>
+  <source src="Tetris.mp3" type="audio/mp3">
+</audio>
 </body>
 </html>
